@@ -1,0 +1,364 @@
+/* common across main pages */
+
+html, body {
+	background-color: #000;
+	overflow-x: hidden;
+}
+
+.wrapper {
+	width: 100%;
+	min-width: 1004px;
+	position: absolute;
+	top: 50%;
+	left: 0px;
+	margin-top: -392px;
+}
+
+.content {
+	width: 1004px;
+	height: 784px;
+	position: relative;
+	margin: 0px auto;
+	margin-top: 1px;
+}
+
+.title, .description, .btn-launch, .gallery, .row-labels, .nav, .footer {
+	position: absolute;
+	color: #fff;
+}
+
+.title {
+	left: 10px;
+	top: 103px;
+	text-shadow: 0 0 10px #8e8e8e;
+}
+
+.title .line1 {
+	font: normal 70px/.9em "Palatino", "Times", serif;
+}
+
+.title .line2 {
+	font: normal 46px "Palatino", "Times", serif;
+}
+
+.description {
+	font: normal 15px/30px "Arial", sans-serif;
+	color: #cecece;
+}
+
+.nav { 
+	width: 1096px;
+	bottom: 85px;
+	left: -46px;
+	text-align: center;
+	text-transform: uppercase;
+	text-shadow: 0 0 1px #8c8c8c;
+	font: normal 17px/1.2em "Palatino", "Times", serif;
+	color: #ddd;
+}
+
+.nav a {
+	height: 88px;
+	display: block;
+	color: #ddd;
+}
+
+.nav span {
+	position: relative;
+	top: 22px;
+}
+
+.nav li {
+	width: 274px;
+	height: 88px;
+	float: left;
+}
+
+.nav li:hover {
+	text-shadow: 0 0 4px #8c8c8c;
+	background: url('../images/nav-hover-and-footer.png') no-repeat left top;
+}
+
+.nav li.sc2:hover {
+	background-position: 0 0;
+}
+
+.nav li.d3:hover {
+	background-position: -274px 0;
+}
+
+.nav li.nonblizzard-work:hover {
+	background-position: -548px 0;
+}
+
+.nav li.personal-statement:hover {
+	background-position: -822px 0;
+}
+
+.nav li.active:hover {
+	text-shadow: 0 0 1px #8c8c8c;
+	color: #ddd;
+	background-image: none;
+}
+
+.footer {
+	width: 1096px;
+	height: 84px;
+	bottom: 0px;
+	left: -46px;
+	text-align: center;
+	background: url('../images/nav-hover-and-footer.png') no-repeat top center;
+	background-position: 0 -88px;
+}
+
+.footer a {
+	color: #7f7f7f;
+}
+
+.footer a:hover{
+	color: #fff;
+}
+
+.download, .contact, .me {
+	font: 12px "Arial", sans-serif;
+	color: #7f7f7f;
+}
+
+.download, .contact {
+	position: absolute;
+	top: 19px;
+}
+
+.download ul, .contact ul {
+	position: relative;
+	top: 7px;
+	line-height: 15px;
+	font-weight: normal;
+}
+
+.download {
+	left: 202px;
+}
+
+.contact {
+	right: 213px;
+}
+
+h2 {
+	text-transform: uppercase;
+}
+
+.me {
+	position: relative;
+	top: 62px;
+	font-weight: normal;
+}
+
+/* sc2 */
+
+.sc2 .wrapper {
+	background: url('../images/sc2-bg.jpg') no-repeat center top;
+}
+
+.sc2 .description {
+	width: 400px;
+	left: 19px;
+	top: 293px;	
+}
+
+.sc2 .btn-launch {
+	width: 293px;
+	height: 66px;
+	top: 390px;
+	left: 10px;
+	background: url("../images/sc2-launch.png") no-repeat 0 0;
+}
+
+.sc2 .btn-launch:hover {
+	background-position: 0 -66px;
+}
+
+/* d3 */
+
+.d3 .wrapper {
+	background: url('../images/d3-bg.jpg') no-repeat center top;
+}
+
+.d3 .description {
+	width: 375px;
+	left: 15px;
+	top: 290px;
+	color: #c4a683;
+}
+
+.d3 .btn-launch {
+	width: 285px;
+	height: 59px;
+	top: 407px;
+	left: 0px;
+	background: url("../images/d3-launch.png") no-repeat 0 0;
+}
+
+.d3 .btn-launch:hover {
+	background-position: 0 -59px;
+}
+
+/* non-blizzard work */
+
+.nonblizzard-work .wrapper {
+	background: url('../images/nonblizz-bg.jpg') no-repeat center top;
+}
+
+.nonblizzard-work .row-labels {
+	top: 405px;
+	left: -110px;
+	text-align: right;
+	font: normal 14px "Times", serif; /* linotype looks bad at 14? */
+	color: #b1b0b0;
+}
+
+.nonblizzard-work .row-labels h3 {
+	height: 27px;
+}
+
+.nonblizzard-work .row-labels .status-label {
+	position: relative;
+	top: 3px;
+}
+
+.nonblizzard-work .gallery {
+	width: 1044px;
+	height: 320px;
+	top: 232px;
+	left: -20px;
+}
+
+.nonblizzard-work .gallery .item {
+	width: 261px;
+	height: 320px;
+	float: left;
+}
+
+.nonblizzard-work .gallery .item-title {
+	height: 71px;
+	text-transform: none;
+	text-shadow: 0 0 10px #8e8e8e;
+	font: normal 23px/1.1em "Palatino", "Times", serif;
+}
+
+.nonblizzard-work .gallery .item-title span {
+	display: block;
+	width: 200px;
+	position: relative;
+	top: 9px;
+	left: 20px;
+}
+
+.nonblizzard-work .gallery .item-description {
+	height: 89px;
+	font: 13px/17px "Arial", sans-serif;
+	color: #ccc;
+}
+
+.nonblizzard-work .gallery .item-description span {
+	display: block;
+	width: 230px;
+	position: relative;
+	top: 19px;
+	left: 20px;
+}
+
+.nonblizzard-work .gallery .item-details {
+	height: 89px;
+	padding: 15px 0px 0px 21px;
+	font: 11px "Arial", sans-serif;
+	color: #999;
+}
+
+.nonblizzard-work .gallery .item-details .separator {
+	padding: 4px;
+	color: #333;
+}
+
+.nonblizzard-work .gallery .item-details li {
+	float: left;
+}
+
+.nonblizzard-work .roles, .technology {
+	display: block;
+	height: 27px;
+}
+
+.nonblizzard-work .status {
+	height: 30px;
+	position: relative;
+	left: -7px;
+	top: -7px;
+	background: url("../images/nonblizz-lights-and-btns-hover.png") no-repeat 0 0;
+}
+
+.nonblizzard-work .orange-light {
+	background-position: 0px -32px;
+}
+
+.nonblizzard-work .gray-light {
+	background-position: 0px -64px;
+}
+
+.nonblizzard-work .status span {
+	position: relative;
+	left: 30px;
+	top: 10px;
+}
+
+.nonblizzard-work .btn-gallery-launch {
+	display: block;
+	height: 56px;
+	float: left;
+	width: 261px;
+}
+
+.nonblizzard-work .btn-gallery-launch:hover {
+	background: url("../images/nonblizz-lights-and-btns-hover.png") no-repeat 0 -97px;
+}
+
+/* personal statement */
+
+.personal-statement .wrapper {
+	background: url('../images/statement-bg.jpg') no-repeat center top;
+}
+
+.personal-statement .description {
+	width: 370px;
+	left: 15px;
+	top: 247px;
+	color: #ddd;
+}
+
+.personal-statement .btn-launch {
+	width: 329px;
+	height: 213px;
+	top: 307px;
+	left: -75px;
+	background: url("../images/personal-statement-read-it.png") no-repeat 0 0;
+}
+
+.personal-statement .btn-launch:hover {
+	background-position: 0 -213px;
+}
+
+/* 	workaround for 1px webkit bug
+		http://code.google.com/p/chromium/issues/detail?id=68339
+*/
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	.sc2 .wrapper, .d3 .wrapper, .nonblizzard-work .wrapper, .personal-statement .wrapper {
+		background-position-x: 49.99%;
+	}
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) and (max-width: 1376px) {
+	.sc2 .wrapper, .d3 .wrapper, .nonblizzard-work .wrapper, .personal-statement .wrapper {
+		background-position-x: 50.01%;
+	}
+}

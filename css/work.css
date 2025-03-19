@@ -1,0 +1,261 @@
+body {
+	overflow-x: hidden;
+	background-color: #fff;
+}
+
+.wrapper {
+	position: relative;
+}
+
+.bar {
+	width: 100%;
+	height: 61px;
+	position: absolute;
+	margin: 0 auto;
+}
+
+.bar-top {
+	top: 40px;
+}
+
+.bar-bottom {
+	bottom: 0px;
+}
+
+.bar {
+	min-width: 994px;
+	background: url('../images/work-bar-white.jpg') no-repeat center top;
+}
+
+.content {
+	position: relative;
+	margin: 0px auto;
+	width: 994px;
+}
+
+.content h1 {
+	display: block;
+	float: left;
+	text-transform: uppercase;
+	font: normal 22px "Palatino", "Times", serif;
+}
+
+.top {
+	margin-top: 20px;
+}
+
+.content h1 {
+	color: #666;
+}
+
+.utils-top {
+	position: relative;
+	top: -6px;
+	text-align: right;
+}
+
+.launch, .download, .close, .signature {
+	background: url('../images/work-misc.png') no-repeat;
+}
+
+.launch, .download, .close {
+	display: inline-block;
+}
+
+.download {
+	width: 125px;
+	height: 32px;
+	background-position: 0 -124px;
+}
+
+.download:hover {
+	background-position: 0 -156px;
+}
+
+.close {
+	width: 85px;
+	height: 32px;
+	background-position: -125px -124px;
+}
+
+.close:hover {
+	background-position: -125px -156px;
+}
+
+.desc {
+	margin-top: 30px;
+	font: normal 14px "Arial", sans-serif;
+	color: #666;
+}
+
+.desc span {
+	margin-right:  25px;
+}
+
+.desc p {
+	margin-top: 22px;
+	line-height: 1.8em;
+}
+
+.artwork {
+	margin: 30px 0;
+}
+
+.signature {
+	width: 153px;
+	height: 30px;
+	margin: 25px 0px 35px 25px;
+}
+
+.utils-bottom {
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+
+/* umaru */
+
+.umaru .launch {
+	width: 169px;
+	height: 32px;
+	background-position: 0 -188px;
+}
+
+.umaru .launch:hover {
+	background-position: 0 -220px;
+}
+
+.umaru .artwork {
+	border: 0px;
+	position: relative;
+	left: -15px;
+	margin-bottom: 35px;
+}
+
+/* fight club */
+
+body.fightclub {
+	background-color: #000;
+}
+
+.fightclub .bar {
+	min-width: 792px;
+	background: url('../images/work-bar-black.jpg') no-repeat center top;
+}
+
+.fightclub .content {
+	width: 792px;
+}
+
+.fightclub .content h1 {
+	color: #bbb;
+}
+
+.fightclub .download {
+	background-position: 0 -60px;
+}
+
+.fightclub .download:hover {
+	background-position: 0 -92px;
+}
+
+.fightclub .close {
+	background-position: -125px -60px;
+}
+
+.fightclub .close:hover{
+	background-position: -125px -92px;
+}
+
+.fightclub .desc {
+	color: #bbb;
+}
+
+/* pointroll & map */
+
+.pointroll .artwork {
+	margin: 0px 0px 0px -254px;
+	position: absolute;
+	top: 118px;
+}
+
+.pointroll .spacer {
+	height: 750px;
+}
+
+.pointroll .gradient {
+	position: absolute;
+	height: 564px;
+	width: 100%;
+	top: 118px;
+	background: #4f79b0; /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzRmNzliMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top, #4f79b0 0%, #ffffff 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4f79b0), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #4f79b0 0%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #4f79b0 0%,#ffffff 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #4f79b0 0%,#ffffff 100%); /* IE10+ */
+	background: linear-gradient(top, #4f79b0 0%,#ffffff 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4f79b0', endColorstr='#ffffff',GradientType=0 ); /* IE6-8 */	
+}
+
+/* map */
+
+.map .artwork {
+	position: relative;
+	left: -49px;
+	margin-bottom: 47px;
+}
+
+/* personal statement */
+
+body.personal-statement-text {
+    background-color: #333;
+}
+
+.personal-statement-text .bar {
+    min-width: 895px;
+	background: url('../images/work-bar-grey.jpg') no-repeat center top;
+}
+
+.personal-statement-text .content {
+    width: 635px;
+}
+
+.personal-statement-text .content h1 {
+	color: #bbb;
+}
+
+.personal-statement-text .download {
+	background-position: 0 -252px;
+}
+
+.personal-statement-text .download:hover {
+	background-position: 0 -284px;
+}
+
+.personal-statement-text .close {
+	background-position: -125px -252px;
+}
+
+.personal-statement-text .close:hover{
+	background-position: -125px -284px;
+}
+
+.personal-statement-text .desc {
+    margin-top: 55px;
+    margin-bottom: 75px;
+}
+
+.personal-statement-text .desc p {
+    text-indent: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+	font: normal 1.2em/2em "Palatino", "Times", serif;
+    color: #fff;
+}
+
+.personal-statement-text .signature {
+    background-position: -152px -30px;
+}

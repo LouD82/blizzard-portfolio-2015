@@ -1,0 +1,121 @@
+body {
+    background-color: #000;
+    overflow-x: hidden;
+}
+
+.wrapper {
+    width: 100%;
+    min-width: 994px;
+}
+
+.content {
+    width: 1012px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.sc2-example-layout .artwork, .d3-example-layout .artwork {
+    position: relative;
+    z-index: -1;
+}
+
+.sc2-example-layout .artwork {
+    left: -343px;
+    top: 0px;
+}
+
+.d3-example-layout .artwork {
+    left: -773px;
+    top: 0px;
+}
+
+.top {
+    width: 1012px;
+    height: 150px;
+    position: absolute;
+    text-align: right;
+    padding-right:  25px;
+}
+
+.title-bar {
+    position: absolute;
+    right: -55px;
+    display: inline-block;
+    width: 740px;
+    height: 53px;
+}
+
+.sc2-example-layout .title-bar {
+    top: 15px;
+    background: url('../images/sc2-example-layout-top-bg.png') no-repeat;
+}
+
+.d3-example-layout .title-bar {
+    background: url('../images/d3-example-layout-top-bg.png') no-repeat;
+}
+
+.title-bar .contents {
+    position: relative;
+}
+
+.sc2-example-layout .title-bar .contents {
+    left: -63px;
+}
+
+.d3-example-layout .title-bar .contents {
+    left: -90px;
+    top: 9px;
+}
+
+.hover-area {
+    width: 1500px;
+    height: 150px;
+    position: absolute;
+    top: 0px;
+    left: -285px;
+    background-color: #333;
+    opacity: 0;
+    filter:alpha(opacity=0);
+}
+
+h1 {
+    position:relative;
+    top: -10px;
+	display: inline;
+	margin-right: 25px;
+	text-transform: uppercase;
+	font: normal 19px "Palatino", "Times", serif;
+    color: #999;
+}
+
+.utils {
+    position: relative;
+    display: inline;
+    z-index: 1;
+}
+
+.download, .close {
+	display: inline-block;
+	background: url('../images/work-misc.png') no-repeat;
+}
+
+.download {
+	width: 125px;
+	height: 32px;
+	background-position: 0 -60px;
+}
+
+.close {
+	width: 85px;
+	height: 32px;
+	background-position: -125px -60px;
+}
+
+.download:hover {
+	background-position: 0 -92px;
+
+}
+
+.close:hover {
+	background-position: -125px -92px;
+}
